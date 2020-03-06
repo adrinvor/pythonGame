@@ -12,7 +12,7 @@ class Top(QWidget):
 
 app = QApplication(sys.argv)
 Display = Top()
-Display = TopWindow()
+#Display = TopWindow()
 Display.setFixedSize(900,600)
 Display.show()
 sys.exit(app.exec_())
